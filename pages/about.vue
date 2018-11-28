@@ -1,17 +1,12 @@
 <template>
   <section class="container">
-    <!-- <logo/> -->
-    <nuxt-link to="/about">GO TO ABOUT.</nuxt-link>
+    <nuxt-link to="/">GO TO INDEX.</nuxt-link>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  name: "about"
 }
 </script>
 
